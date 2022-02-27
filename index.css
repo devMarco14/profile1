@@ -68,3 +68,8 @@ body {
     text-align: center;
 }
 
+@media screen and (max-height: 768px) {
+    .blank {
+        margin: 50px;
+    }
+}
