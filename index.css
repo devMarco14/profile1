@@ -24,11 +24,14 @@ body {
    position: absolute; 
    left: 0;
    top: 0;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
 }
 
 .title {
     text-align : center;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     line-height: 25px;
@@ -42,6 +45,10 @@ body {
     font-family: 'Gamja Flower', cursive;
 }
 
+.blank {
+    margin: 100px;
+}
+
 .logo-image{
     width: 40px;
     height: 40px;
@@ -53,10 +60,11 @@ body {
 .read-more{
     text-align: center;
     font-size: 27px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-family: 'Gamja Flower', cursive;
 }
 
 .logos {
     text-align: center;
 }
+
